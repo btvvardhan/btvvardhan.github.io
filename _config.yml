@@ -49,11 +49,11 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             Home
     url:               /example/
-  - title:             Documentation
+  - title:             Projects
     url:               /docs/
-  - title:             About
+  - title:             CV
     url:               /about/
 
 # Add links to the footer.
