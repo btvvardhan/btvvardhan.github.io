@@ -8,11 +8,19 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    Master’s student in **Robotics and Autonomous Systems** at Arizona State University (4.0 GPA), 
+    with a background in Mechanical Engineering from IIT Madras.  
+
+    My work bridges **robotics, AI, and simulation**, focusing on autonomous navigation, 
+    embodied AI agents, and vision-language models.  
+
+    I’ve developed projects across **ROS2, PX4, Gazebo/Isaac Sim, and LangGraph**, 
+    ranging from UAV rock detection with YOLOv8 and precision drone landing, 
+    to multi-modal AI tutors that integrate documents, videos, and GPU benchmarking.  
+
+    Actively engaged in hackathons and research, I’m passionate about building 
+    **efficient, scalable AI systems for embodied intelligence**.
+
 
   # This photo will be used in the about section
   picture:
