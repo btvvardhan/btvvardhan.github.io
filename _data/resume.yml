@@ -1,0 +1,95 @@
+basics:
+  name: "Teja Vishnu Vardhan Boddu"
+  label: "Master’s Student in Robotics and Autonomous Systems"
+  picture: /assets/img/profile.jpg
+  email: "tboddu1@asu.edu"
+  phone: "+1 667-445-8867"
+  website: "https://btvvardhan.github.io"
+  summary: >
+    Master’s student in Robotics and Autonomous Systems at ASU (4.0/4.0 GPA), 
+    specializing in autonomous navigation, robotic control, and AI integration. 
+    On track to graduate in May 2026, seeking opportunities to apply theoretical 
+    knowledge in real-world robotics and AI systems.
+  profiles:
+    - network: "Github"
+      username: "btvvardhan"
+      url: "https://github.com/btvvardhan"
+    - network: "LinkedIn"
+      username: "Teja Vishnu Vardhan Boddu"
+      url: "https://linkedin.com/in/btvvardhan"
+
+education:
+  - institution: "Arizona State University, Tempe, AZ"
+    area: "Robotics and Autonomous Systems (Systems Engineering)"
+    studyType: "Master of Science"
+    startDate: "2024-08"
+    endDate: "2026-05"
+    gpa: "4.0/4.0"
+  - institution: "Indian Institute of Technology Madras, Chennai, India"
+    area: "Mechanical Engineering"
+    studyType: "Bachelor of Technology"
+    endDate: "2023-11"
+
+skills:
+  - name: "Programming"
+    keywords: ["Python", "C", "MATLAB"]
+  - name: "AI/ML"
+    keywords: ["Generative AI", "RAG", "Whisper ASR", "HuggingFace Transformers", "Prompt Engineering"]
+  - name: "Robotics"
+    keywords: ["ROS2", "PX4 Autopilot", "Inverse Kinematics", "PID Control", "Vision-Based Navigation"]
+  - name: "Tools"
+    keywords: ["SOLIDWORKS", "ANSYS", "AutoCAD", "Simulink", "Microsoft Office"]
+
+certifications:
+  - name: "IBM Professional AI Certification"
+  - name: "Machine Learning Specialization (Stanford & Deeplearning.ai)"
+
+projects:
+  - title: "AI-Accelerated Multi-Modal Tutor"
+    url: "https://github.com/sbenstewart/nvidia-ai-accelerated-spark"
+    highlights:
+      - "Built an LLM-powered tutor on Sol supercomputer (A100 GPUs)."
+      - "Supported PDFs, videos, and code inputs with RAG for document Q&A."
+      - "Enabled CPU→GPU code conversion with runtime benchmarking."
+  - title: "PX4-based UAV Rock Detection and Localization"
+    url: "https://github.com/btvvardhan/RAS598_project"
+    highlights:
+      - "Developed UAV sim with ROS2 + PX4 + Gazebo."
+      - "Integrated YOLOv8 for real-time rock detection and localization."
+  - title: "Denoising Diffusion GAN Latent Manipulation"
+    url: "https://github.com/btvvardhan/denoising-diffusion-gan"
+    highlights:
+      - "Manipulated latent vectors in DDGAN to edit attributes across denoising steps."
+      - "Generated synthetic data pipelines with CelebA-HQ dataset."
+  - title: "Solving a Maze with My Cobot Pro 600"
+    highlights:
+      - "Developed a digital twin with Python + OpenCV + MATLAB IK model."
+      - "Executed autonomous maze-solving with real-time robotic control."
+  - title: "Autonomous Line Following & Precision Landing"
+    highlights:
+      - "Implemented onboard RGB image processing and control for Parrot Minidrone."
+      - "Achieved GPS-free precision landing on moving robot."
+
+volunteer:
+  - organization: "Sanghi Foundation – FIRST Robotics Competition"
+    position: "Volunteer"
+    startDate: "2024"
+    summary: "Supported team assistance and event organization."
+  - organization: "Hackathons (Honeywell, Nvidia AI Spark, Los Alamos)"
+    position: "Participant"
+    startDate: "2025"
+    summary: "Collaborated on robotics and AI challenges."
+
+languages:
+  - language: "English"
+    fluency: "Fluent"
+  - language: "Telugu"
+    fluency: "Native"
+  - language: "Hindi"
+    fluency: "Professional Working"
+
+interests:
+  - name: "Robotics Research"
+    keywords: ["Embodied AI", "SLAM", "Autonomous Systems"]
+  - name: "Hobbies"
+    keywords: ["Cycling", "Travel", "Hackathons"]
