@@ -3,17 +3,17 @@ layout: project
 title: "Autonomous UAV for Object Correspondence in Digital Twin Terrains"
 date: 2025-01-01
 summary: "PX4 + ROS 2 UAV pipeline for rock displacement detection in simulated digital twin terrains using photogrammetry, Gazebo, and YOLOv8."
-thumb: /assets/projects/uav/cover.jpg   # Replace with a 16:9 cover image
+thumb: /assets/projects/space-robotics/cover.png   # Replace with a 16:9 cover image
 tags: [uav, ros2, px4, gazebo, yolo, photogrammetry, space-robotics]
 links:
   - title: GitHub Repo
     url: https://github.com/btvvardhan/RAS598_project
   - title: Final Report
-    url: /assets/projects/uav/space-robotics-report.pdf
+    url: /assets/projects/space-robotics/space-robotics-report.pdf
 ---
 
-## Overview
-This project (ASU **RAS 598: Space Robotics and AI**) develops an **integrated UAV framework** for detecting and quantifying **rock displacements in a digital twin terrain**.  
+## Autonomous UAV for Object Correspondence in Digital Twin Terrains
+This project ( **RAS 598: Space Robotics and AI**) develops an **integrated UAV framework** for detecting and quantifying **rock displacements in a digital twin terrain**.  
 It combines **PX4 flight control**, **ROS 2 middleware**, **Gazebo simulation**, and **YOLOv8 object detection** in a single workflow.  
 
 The UAV autonomously flies over a photogrammetry-generated terrain, detects rocks in real time, estimates 3D world coordinates, and compares positions across terrains to measure displacement.
@@ -27,7 +27,7 @@ The UAV autonomously flies over a photogrammetry-generated terrain, detects rock
    - Cleaned in **Blender**, exported as textured meshes.  
    - Rocks modeled individually for detection.  
 
-   ![3D Terrain Reconstruction](/assets/projects/uav/meshroom.png)
+   ![3D Terrain Reconstruction](/assets/projects/space-robotics/meshroom.png)
 
 2. **Simulation Setup in Gazebo**  
    - Terrain + rocks imported as meshes in a custom SDF world.  
@@ -41,7 +41,7 @@ The UAV autonomously flies over a photogrammetry-generated terrain, detects rock
    - YOLOv8n fine-tuned for 4 rock classes.  
    - Achieved mAP@0.5 ≈ **0.995** with near-perfect classification.  
 
-   ![YOLO Training Dataset](/assets/projects/uav/yolo-dataset.png)  
+   ![YOLO Training Dataset](/assets/projects/space-robotics/yolo.png)  
    ![PR & F1 Curves](/assets/projects/uav/pr-curve.png)
 
 4. **Real-Time Detection & Localization**  
@@ -69,14 +69,15 @@ The UAV autonomously flies over a photogrammetry-generated terrain, detects rock
 ## Video Demos
 
 <div class="video-wrap">
-  <iframe src="https://www.youtube.com/embed/XXXXXXXXXXX" title="Simulation Demo" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://youtu.be/wzYCpQy7FVQ" 
+  title="Simulation Demo" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="video-wrap">
+<!-- <div class="video-wrap">
   <iframe src="https://www.youtube.com/embed/YYYYYYYYYYY" title="YOLOv8 Detection Demo" frameborder="0" allowfullscreen></iframe>
-</div>
-
-(Replace `XXXXXXXXXXX` and `YYYYYYYYYYY` with your YouTube video IDs.)
+</div> -->
+<!-- 
+(Replace `XXXXXXXXXXX` and `YYYYYYYYYYY` with your YouTube video IDs.) -->
 
 ---
 
@@ -104,5 +105,5 @@ It is directly extensible to:
 
 ---
 
-📄 **Full Report**: [Download PDF](/assets/projects/uav/space-robotics-report.pdf)  
+📄 **Full Report**: [Download PDF](/assets/projects/space-robotics-report/space-robotics-report.pdf)  
 🔗 **GitHub Repository**: [RAS598 Project](https://github.com/btvvardhan/RAS598_project)
