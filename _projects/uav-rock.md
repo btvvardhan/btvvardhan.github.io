@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: PX4‑based UAV Rock Detection & Localization
 description: ROS 2 + PX4 + Gazebo sim with YOLOv8 detection and TF localization.
 image: /assets/projects/px4/cover.jpg
