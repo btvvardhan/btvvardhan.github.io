@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: AI‑Accelerated Multi‑Modal Tutor
 description: LLM+RAG tutor with PDFs/videos, CPU→GPU conversion, and benchmarks on NVIDIA A100.
 image: /assets/projects/ai-tutor/cover.jpg   # shown on the cards grid
