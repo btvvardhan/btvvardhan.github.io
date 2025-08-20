@@ -3,7 +3,7 @@ layout: projects
 title: Projects
 permalink: /projects/
 ---
-
+<!-- 
 <style>
 /* === Uniform project card theme (free Hydejack friendly) === */
 .projects-grid {
@@ -73,4 +73,4 @@ permalink: /projects/
       </div>
     </a>
   {% endfor %}
-</div>
+</div> -->
