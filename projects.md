@@ -1,6 +1,5 @@
 ---
-layout:          projects
-title:           Projects*
-show_collection: projects
-featured:        true
+layout: projects
+title: Projects
+permalink: /projects/
 ---
