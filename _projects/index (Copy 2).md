@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: EmbodiedBench + Local VLM Planner
 description: Local VLM planning with visual memory cache and reproducible evals.
 image: /assets/projects/embodiedbench/cover.jpg

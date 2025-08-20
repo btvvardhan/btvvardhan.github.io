@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Projects
 permalink: /projects/
 show_collection: projects
