@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: blog
 title: Projects
 permalink: /projects/
 show_collection: projects
-featured:        true
+featured:        false 
 
 ---
-
+<!-- 
 {% assign items = site.projects | sort: "date" | reverse %}
 <div class="grid grid--p">
   {% for p in items %}
@@ -18,4 +18,4 @@ featured:        true
       {% if p.description %}<p style="margin:0;color:var(--body-fg);opacity:.8;">{{ p.description }}</p>{% endif %}
     </a>
   {% endfor %}
-</div>
+</div> -->
