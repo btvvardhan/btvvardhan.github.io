@@ -79,7 +79,7 @@ layout: base
 {% include components/dingbat.html %}
 
 {% assign addons = page.addons | default:site.hydejack.project_addons %}
-{% unless addons %}{% assign addons = "about,newsletter,other" | split:"," %}{% endunless %}
+{% unless addons %}{% assign addons = "newsletter,other" | split:"," %}{% endunless %}
 {% for addon in addons %}
   {% case addon %}
   {% when 'about' %}
