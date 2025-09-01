@@ -1,22 +1,58 @@
 basics:
   name: "Teja Vishnu Vardhan Boddu"
-  label: "Master’s Student in Robotics and Autonomous Systems"
-  picture: /assets/img/profile.jpg
-  email: "tboddu1@asu.edu"
-  phone: "+1 667-445-8867"
-  website: "https://btvvardhan.github.io"
+  label: "Robotics and AI Engineer"
+  picture: "/assets/img/profile.png"
+  email: "btvvardhan@gmail.com"
+  phone: "(+1) 667-445-8867"
+  website: "https://btvvardhan.github.io/"
   summary: >
-    Master’s student in Robotics and Autonomous Systems at ASU (4.0/4.0 GPA), 
-    specializing in autonomous navigation, robotic control, and AI integration. 
-    On track to graduate in May 2026, seeking opportunities to apply theoretical 
-    knowledge in real-world robotics and AI systems.
+    Hello, I'm Teja, a Master’s student in Robotics and Autonomous Systems at ASU.<br>
+    I am a Robotics and AI Engineer specializing in autonomous navigation, robotic control, and AI integration.<br>
+    On track to graduate in May 2026, seeking opportunities to apply theoretical knowledge in real-world robotics and AI systems.
   profiles:
     - network: "Github"
       username: "btvvardhan"
       url: "https://github.com/btvvardhan"
     - network: "LinkedIn"
-      username: "Teja Vishnu Vardhan Boddu"
-      url: "https://linkedin.com/in/btvvardhan"
+      username: "btvvardhan"
+      url: "https://www.linkedin.com/in/btvvardhan/"
+
+work:
+  - company: "Arizona State University"
+    position: "Course Grader — EGR 432: Engineering Thermo-Fluids II"
+    website: "https://www.asu.edu/"
+    startDate: "2025-08-25"
+    endDate: ""
+    summary: >
+      Grader for an upper-division thermo-fluids course. Assessed homework and exams with
+      rubric-based grading, provided detailed feedback, and supported course operations on Canvas.
+    highlights: ""
+
+  - company: "Arizona State University"
+    position: "Course Grader — EGR 313: Mechanical Systems Project II"
+    website: "https://www.asu.edu/"
+    startDate: "2025-08-25"
+    endDate: ""
+    summary: >
+      Grader for a project-based mechanical systems course. Evaluated team deliverables,
+      demos, and presentations; offered technical and writing feedback on design and analysis.
+    highlights: ""
+
+volunteer:
+  - organization: "Sanghi Foundation – FIRST Robotics Competition"
+    position: "Volunteer"
+    website: ""
+    startDate: "2024-10-02"
+    endDate: "2024-10-05"
+    summary: "Supported team assistance and event organization."
+    highlights: []
+  - organization: "National Service Scheme (NSS), India"
+    position: "Mentor"
+    website: ""
+    startDate: "2017-11-02"
+    endDate: "2017-12-18"
+    summary: "Mentored and helped underprivileged students in rural areas with their education."
+    highlights: []
 
 education:
   - institution: "Arizona State University, Tempe, AZ"
@@ -24,65 +60,94 @@ education:
     studyType: "Master of Science"
     startDate: "2024-08-21"
     endDate: "2026-05-15"
-    gpa: "4.0/4.0"
+    gpa: "4.0 / 4.0"
   - institution: "Indian Institute of Technology Madras, Chennai, India"
     area: "Mechanical Engineering"
     studyType: "Bachelor of Technology"
-    endDate: "2023-11"
+    startDate: ""
+    endDate: "2024-05-18"
+    courses:
+      - "Robotics Systems 1"
+      - "Robotics Systems 2"
+      - "Mechatronic Systems"
+      - "Generative AI"
+      - "Space Robotics and AI"
+      - "Bio-Inspired Robotics"
+      - "Reinforcement Learning in Robotics"
+      - "Multi-Robot Systems"
+
+certificates:
+  - name: "IBM Professional AI Certification"
+    date: "2024-01-22"
+  - name: "Machine Learning Specialization (Stanford & DeepLearning.AI)"
+    date: "2024-01-15"
+
+projects:
+  - title: "Denoising Diffusion GAN: Latent Manipulation & Synthetic Data Generation"
+    startDate: ""
+    endDate: ""
+    summary: "Explored DDGAN latent-space controls for image diversity and attribute edits; built a reproducible synthetic data pipeline and benchmarked generation speed. Slides: <a href='https://docs.google.com/presentation/d/1_7zTcinveBBU3cOp1UIjxV84tjjRVnnX3q1TQZ-FM9Q/edit?usp=sharing'>DDGAN + Latent Editing</a>."
+    url: ""
+    highlights:
+      - "Manipulated DDGAN latents to steer diversity and partially edit attributes across denoising steps despite entangled spaces."
+      - "Ran controlled studies on CelebA-HQ to analyze multimodality and effects of latent vector shifts."
+      - "Implemented synthetic data generation via randomized seeds, posterior sampling, and batch-consistent latent vectors."
+      - "Measured and benchmarked end-to-end image generation time to enable scalable dataset creation."
+
+  - title: "Solving a Maze with MyCobot Pro 600 (Python · OpenCV · MATLAB)"
+    startDate: ""
+    endDate: ""
+    summary: "Built a digital twin and full pipeline to detect, solve, and execute maze paths on a 6-DOF arm with IK-based motion."
+    url: ""
+    highlights:
+      - "Used Python + OpenCV for maze detection, graph construction, and shortest-path solving."
+      - "Designed inverse-kinematics motions in MATLAB to generate smooth, collision-free trajectories."
+      - "Streamed plans to the physical robot via TCP for real-time execution."
+
+  - title: "PX4-based UAV Rock Detection and Localization (ROS 2 · Gazebo · PX4-Autopilot · DL)"
+    startDate: ""
+    endDate: ""
+    summary: "Simulated a UAV over photogrammetry terrain, performed YOLOv8 detection, and localized rocks in world coordinates using TF transforms."
+    url: "https://github.com/btvvardhan/RAS598_project"
+    highlights:
+      - "Built ROS 2 + PX4 + Gazebo Sim environment with custom photogrammetry terrain for realistic perception."
+      - "Trained and integrated YOLOv8 for real-time rock detection."
+      - "Used depth + TF (map → base_link → camera_link) to compute accurate global positions."
+
+  - title: "AI-Accelerated Multi-Modal Tutor (ASU × NVIDIA Spark Challenge · Sol Supercomputer)"
+    startDate: ""
+    endDate: ""
+    summary: "LLM-powered tutor running on Sol (A100 GPUs); supports PDFs, videos, and code with RAG and automated GPU benchmarking."
+    url: ""
+    highlights:
+      - "Built a multi-modal interface for document/video/code inputs with Gradio."
+      - "Integrated RAG using HuggingFace + Chroma for document-grounded Q&A."
+      - "Automated CPU→GPU code conversion and benchmarked GPU vs CPU performance on Sol."
+      - "Deployed with Ollama and Whisper for transcription; scheduled vector embedding and efficient GPU jobs."
+
+  - title: "Autonomous Line Following & Precision Landing with Parrot Minidrone"
+    startDate: ""
+    endDate: ""
+    summary: "On-board visual servoing and precision landing on a moving target using MATLAB Simulink + Stateflow—no GPS/external localization."
+    url: ""
+    highlights:
+      - "Implemented real-time RGB processing to detect a red landing marker and follow lines."
+      - "Designed a state-machine controller for adaptive descent and stable touchdown."
+      - "Executed HIL loops to minimize latency and improve control stability under dynamic conditions."
 
 skills:
   - name: "Programming"
     keywords: ["Python", "C", "MATLAB"]
   - name: "AI/ML"
-    keywords: ["Generative AI", "RAG", "Whisper ASR", "HuggingFace Transformers", "Prompt Engineering"]
+    keywords: ["Generative AI", "RAG", "Agentic AI", "HuggingFace Transformers", "Prompt Engineering"]
   - name: "Robotics"
     keywords: ["ROS2", "PX4 Autopilot", "Inverse Kinematics", "PID Control", "Vision-Based Navigation"]
   - name: "Tools"
     keywords: ["SOLIDWORKS", "ANSYS", "AutoCAD", "Simulink", "Microsoft Office"]
 
-certifications:
-  - name: "IBM Professional AI Certification"
-  - name: "Machine Learning Specialization (Stanford & Deeplearning.ai)"
-
-projects:
-  - title: "AI-Accelerated Multi-Modal Tutor"
-    url: "https://github.com/sbenstewart/nvidia-ai-accelerated-spark"
-    highlights:
-      - "Built an LLM-powered tutor on Sol supercomputer (A100 GPUs)."
-      - "Supported PDFs, videos, and code inputs with RAG for document Q&A."
-      - "Enabled CPU→GPU code conversion with runtime benchmarking."
-  - title: "PX4-based UAV Rock Detection and Localization"
-    url: "https://github.com/btvvardhan/RAS598_project"
-    highlights:
-      - "Developed UAV sim with ROS2 + PX4 + Gazebo."
-      - "Integrated YOLOv8 for real-time rock detection and localization."
-  - title: "Denoising Diffusion GAN Latent Manipulation"
-    url: "https://github.com/btvvardhan/denoising-diffusion-gan"
-    highlights:
-      - "Manipulated latent vectors in DDGAN to edit attributes across denoising steps."
-      - "Generated synthetic data pipelines with CelebA-HQ dataset."
-  - title: "Solving a Maze with My Cobot Pro 600"
-    highlights:
-      - "Developed a digital twin with Python + OpenCV + MATLAB IK model."
-      - "Executed autonomous maze-solving with real-time robotic control."
-  - title: "Autonomous Line Following & Precision Landing"
-    highlights:
-      - "Implemented onboard RGB image processing and control for Parrot Minidrone."
-      - "Achieved GPS-free precision landing on moving robot."
-
-volunteer:
-  - organization: "Sanghi Foundation – FIRST Robotics Competition"
-    position: "Volunteer"
-    startDate: "2024"
-    summary: "Supported team assistance and event organization."
-  - organization: "Hackathons (Honeywell, Nvidia AI Spark, Los Alamos)"
-    position: "Participant"
-    startDate: "2025"
-    summary: "Collaborated on robotics and AI challenges."
-
 languages:
   - language: "English"
-    fluency: "Fluent"
+    fluency: "Professional Working"
   - language: "Telugu"
     fluency: "Native"
   - language: "Hindi"
@@ -90,6 +155,14 @@ languages:
 
 interests:
   - name: "Robotics Research"
-    keywords: ["Embodied AI", "SLAM", "Autonomous Systems"]
+    keywords:
+      - "Embodied AI"
+      - "SLAM"
+      - "Autonomous Systems"
   - name: "Hobbies"
-    keywords: ["Cycling", "Travel", "Hackathons"]
+    keywords:
+      - "Cycling"
+      - "Travel"
+      - "Hackathons"
+
+awards: []
