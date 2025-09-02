@@ -1,4 +1,9 @@
 // assets/js/chatbot.js
+
+/* disable floating widget */
+if (true) { console.debug("[chatbot] floating widget disabled"); return; }
+
+
 (function () {
   // ==== CONFIG ====
   const ENDPOINT = "https://rag-netlify.netlify.app/.netlify/functions/chatbot";

@@ -1,0 +1,10 @@
+/* Add a tiny badge after the Chat menu item */
+.sidebar a[href="/chatbot/"]::after{
+  content:"New";
+  margin-left:.4rem;
+  font-size:.72rem;
+  padding:.08rem .32rem;
+  border-radius:.5rem;
+  background:#083d48;
+  color:#fff;
+}
