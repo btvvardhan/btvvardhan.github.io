@@ -10,8 +10,8 @@ links:
     url: /assets/projects/mycobot/RAS545_Final_Project_Report.pdf   # place the PDF here in your repo
   # - title: GitHub
   #   url: https://github.com/your-repo
-  # - title: Demo Video
-  #   url: https://www.youtube.com/watch?v=XXXXXXXXXXX
+  - title: Demo Video
+    url: https://youtube.com/shorts/cpwe_7RJfMw?feature=share
 ---
 
 ## Solving a 4×4 Maze with MyCobot Pro 600
