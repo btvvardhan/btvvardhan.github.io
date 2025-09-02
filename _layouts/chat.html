@@ -1,0 +1,41 @@
+---
+layout: base
+---
+<main id="chat-page" class="page">
+  <article class="page-content">
+    <link rel="stylesheet" href="{{ '/assets/css/chat.css' | relative_url }}">
+    <div id="chat-app" class="chatgpt" aria-live="polite">
+      <header class="chat-head">
+        <div class="logo">💬</div>
+        <div class="titles">
+          <h1>Ask about Teja</h1>
+          <p>Projects, resume, coursework, and more</p>
+        </div>
+      </header>
+
+      <main id="chat-log" class="chat-log"></main>
+      <section class="chips" id="chat-chips">
+        <button type="button">What are Teja’s top projects?</button>
+        <button type="button">Summarize the resume</button>
+        <button type="button">Show the AI Tutor benchmarks</button>
+        <button type="button">How was the NVIDIA Spark Challenge?</button>
+      </section>
+
+      <footer class="chat-input">
+        <textarea id="chat-input" rows="1" placeholder="Type your question… (Shift+Enter for newline)"></textarea>
+        <button id="chat-send" type="button" class="send">Send</button>
+      </footer>
+    </div>
+  </article>
+</main>
+
+<!-- Load JS and re-init on Hydejack's PJAX navigation -->
+<script defer src="{{ '/assets/js/chat.js' | relative_url }}" data-no-instant></script>
+<script>
+  function initChatOnce(){
+    // If your JS exposes Chat.start(), call it here
+    if (window.Chat && typeof window.Chat.start === 'function') window.Chat.start();
+  }
+  document.addEventListener('DOMContentLoaded', initChatOnce);
+  document.addEventListener('hy-push-state-after', initChatOnce);
+</script>
